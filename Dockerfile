@@ -5,7 +5,7 @@ RUN chown -R node /usr/src/app
 USER node
 WORKDIR /usr/src/app
 COPY . /usr/src/app
-RUN npm install
+RUN npm install --production
 
 EXPOSE 8080
 

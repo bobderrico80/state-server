@@ -17,11 +17,17 @@ If coordinates are invalid, or are not mapped to any state, the endpoint will re
 Coordinate is not located in any defined state
 ```
 
-## Starting the server
+## Local Development
+
+### Installing dependencies
+
+After cloing the repo, enter the repo folder and run `npm install` to install dependencies
+
+### Starting the server
 
 Ensure NodeJS version 10.* or later is installed. Start the server with `npm start`.
 
-## Running Tests
+### Running Tests
 
 Run unit tests with `npm test`
 
