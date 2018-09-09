@@ -5,5 +5,6 @@ module.exports = {
   },
   rules: {
     'implicit-arrow-linebreak': 'off',
+    'no-unused-vars': ['error', { 'argsIgnorePattern': '^_.*' }],
   },
 };
